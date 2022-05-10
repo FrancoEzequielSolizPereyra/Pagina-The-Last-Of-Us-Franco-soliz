@@ -59,7 +59,7 @@ header{
     align-items: center;
 }
 .icono{
-    width: 7%; 
+    width: 15%; 
         -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
                 animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -128,7 +128,6 @@ h3{
 }
 .div1{
     display: flex;  
-}
 }
 .imagenJuego1{
         -webkit-animation: scale-in-ver-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -217,7 +216,7 @@ footer{
     list-style: none;
 }
 .imagen3{
-    width: 15%;
+    width: 7%;
     margin: 10px;
 }
 .boton1{
