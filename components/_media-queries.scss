@@ -1,0 +1,1011 @@
+@media (max-width: 1440px) {
+
+    .card {
+        width: 40rem;
+    }
+    .segundos {
+        margin: 25px;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .card {
+        width: 35rem;
+    }
+    .segundos {
+        margin: 25px;
+    }
+}
+@media (max-width: 1115px) {
+
+    .card {
+        width: 30rem;
+    }
+    .segundos {
+        margin: 25px;
+    }
+
+    .h1_historia {
+        text-transform: uppercase;
+        margin: 18px;
+    }
+    .h2_historia {
+        margin: 18px;
+        text-align: center;
+    }
+
+    .div3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: center;
+        font-size: 15px;
+    
+    
+        &__imagen32 {
+            width: 500px;
+    
+        }
+        &__p {
+            margin: 25px;
+            line-height: 1.5;
+        }
+    }
+    
+    .div4 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        &__p {
+            margin: 30px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+    
+        &__imagen15 {
+            width: 500px;
+            align-self: center;
+        }
+    
+    
+    }
+}
+
+
+@media (max-width: 1050px) {
+    /*index*/
+    .div1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        align-items: center;
+   
+       &__imagen {
+           width: 400px;
+   
+       }
+   
+       &__p1 {
+           text-align: left;
+           font-size: 17px;
+           line-height: 1.5;
+           margin: 30px;
+       }
+       }
+       .div2 {
+           display: block;
+       
+           &__titulo{ 
+              text-transform: uppercase;
+              text-align: center;
+              margin: 20px;
+       
+           }
+           &__pp {
+               font-size: 15px;
+               line-height: 1.5;
+               margin: 20px;
+           }
+       }
+       .section {
+           display: block;
+           
+           &__tittle {
+               text-align: center;
+               text-transform: uppercase;
+               margin: 30px auto;
+           }
+           &__iframe {
+               width: 100%;
+           }
+       }
+       .section2 {
+           margin-top: 30px;
+           &__tittle {
+               text-transform: uppercase;
+               text-align: center;
+               margin-bottom: 20px;
+           }
+           &__div {
+               display: grid;
+               grid-template-columns: 1fr;
+               gap: 20px;
+               align-items: center;
+               font-size: 15px;
+               line-height: 1.6;
+           }
+           &__p {
+               font-size: 15px;
+               margin: 20px;
+           }
+
+           &__imagen23 {
+               width: 500px;
+           }
+           
+       }
+       .section3 {
+           margin: 40px;
+           font-size: 20px;
+           text-align: center;
+       }
+    /*historia*/
+   
+       .h1_historia {
+           text-transform: uppercase;
+           margin: 18px;
+       }
+       .h2_historia {
+           margin: 18px;
+           text-align: center;
+       }
+   
+       .div3 {
+           display: grid;
+           grid-template-columns: 1fr;
+           gap: 20px;
+           align-items: center;
+           font-size: 15px;
+       
+       
+           &__imagen32 {
+               width: 500px;
+       
+           }
+           &__p {
+               margin: 25px;
+               line-height: 1.5;
+           }
+       }
+       
+       .div4 {
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+           
+           &__p {
+               margin: 30px;
+               font-size: 15px;
+               line-height: 1.6;
+           }
+       
+           &__imagen15 {
+               width: 500px;
+               align-self: center;
+           }
+       
+       
+       }
+   
+       /*juegos*/
+   
+       .grid1 {
+           grid-template-columns: 1fr;
+
+
+           &__iframe {
+            width: 100%;
+        }
+       }
+   
+       .grid2 {
+           display: grid;
+           grid-template-columns: 1fr;
+           grid-template-areas:
+               "p1"
+               "img1"
+               "p2"
+               "img2"
+               "p3"
+               "img3"
+               "p4"
+               "img4";
+       
+       }
+       .rumor {
+           margin: 70px;
+       
+           &__tittle {
+               margin: 30px;
+           }
+       
+           &__p {
+               font-size: 20px;
+               line-height: 1.5;
+               margin: 20px;
+           }
+       }
+       
+       /*footer*/
+   
+       .footer {
+           display: flex;
+           flex-direction: column;
+           margin: 10px;
+       
+           &__lista {
+               flex-direction: column;
+           }
+       
+           &__lista2 {
+               margin: 10px;
+           }
+           
+           
+           &__icono {
+               width: 20%;
+           }
+       }
+   
+       /*personajes*/
+   
+   .card {
+       width: 32rem;
+   }
+   .segundos {
+       margin: 25px;
+   }
+   
+   .personajes23 {
+       margin: 25px;
+       &__ul {
+           font-size: 20px;
+       }
+       &__p {
+           font-size: 15px;
+           line-height: 1.5;
+       }
+       
+   }
+   
+   
+   
+   .section-personajes {
+   
+   
+   
+       &__p {
+           font-size: 25px;
+       }
+   }
+   /*acerca de mi*/
+   .AcercaDeMi {
+       line-height: 1.5;
+       
+   
+       &__p {
+           margin: 30px;
+           font-size: 20px;
+       }
+   }
+   
+
+
+}
+@media (max-width: 990px) {
+
+    .card {
+        width: 25rem;
+    }
+    .segundos {
+        margin: 25px;
+    }
+}
+
+
+@media (max-width: 780px) {
+ /*index*/
+    .div1 {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 30px;
+     align-items: center;
+
+    &__imagen23 {
+        width: 500px;
+
+    }
+
+    &__p1 {
+        text-align: left;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    }
+    .div2 {
+        display: block;
+    
+        &__titulo{ 
+           text-transform: uppercase;
+           text-align: center;
+           margin: 10px auto;
+    
+        }
+        p {
+            font-size: 20px;
+            line-height: 2.0;
+        }
+    }
+    .section {
+        display: block;
+        
+        &__tittle {
+            text-transform: uppercase;
+            margin: 30px auto;
+        }
+        &__iframe {
+            width: 100%;
+        }
+    }
+    .section2 {
+        margin-top: 30px;
+        &__tittle {
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        &__div {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            align-items: center;
+            font-size: 20px;
+            line-height: 1.7;
+        }
+        &__imagen {
+            width: 700px;
+        }
+        
+    }
+    .section3 {
+        margin: 40px;
+        font-size: 25px;
+        text-align: center;
+    }
+ /*historia*/
+
+    .h1_historia {
+        text-transform: uppercase;
+        margin: 20px;
+    }
+    .h2_historia {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .div3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        align-items: center;
+        font-size: 20px;
+    
+    
+        &__imagen32 {
+            width: 700px;
+    
+        }
+        &__p {
+            line-height: 2.0;
+        }
+    }
+    
+    .div4 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        &__p {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+    
+        &__imagen15 {
+            width: 800px;
+            align-self: center;
+        }
+    
+    
+    }
+
+    /*juegos*/
+
+    .grid1 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "p1"
+            "img1"
+            "p2"
+            "img2"
+            "p3"
+            "img3"
+            "p4"
+            "img4";
+    
+    }
+    .rumor {
+        margin: 70px;
+    
+        &__tittle {
+            text-align: center;
+            margin: 30px;
+        }
+    
+        &__p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+    }
+    
+    /*footer*/
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    
+        &__lista {
+            list-style: circle;
+            flex-direction: column;
+        }
+    
+        &__lista2 {
+            margin: 10px;
+        }
+        
+        
+        &__icono {
+            width: 10%;
+        }
+    }
+
+    /*personajes*/
+
+.card {
+    width: 22rem;
+}
+.segundos {
+    margin: 25px;
+}
+
+.personajes2 {
+    margin: 25px;
+    &__ul {
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        list-style: none;
+    }
+    &__p {
+        font-size: 25px;
+        line-height: 1.5;
+    }
+    
+}
+
+
+
+.section-personajes {
+
+
+    &__tittle {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__p {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+.AcercaDeMi {
+    line-height: 1.5;
+    
+    &__tittle {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__p {
+        font-size: 25px;
+    }
+}
+
+
+}
+@media (max-width: 650px) {
+    /*index*/
+    .div1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        align-items: center;
+   
+       &__imagen {
+           width: 400px;
+   
+       }
+   
+       &__p1 {
+           text-align: left;
+           font-size: 18px;
+           line-height: 1.5;
+           margin: 30px;
+       }
+       }
+       .div2 {
+           display: block;
+       
+           &__titulo{ 
+              text-transform: uppercase;
+              text-align: center;
+              margin: 20px;
+       
+           }
+           &__pp {
+               font-size: 18px;
+               line-height: 1.5;
+               margin: 20px;
+           }
+       }
+       .section {
+           display: block;
+           
+           &__tittle {
+               text-align: center;
+               text-transform: uppercase;
+               margin: 30px auto;
+           }
+           &__iframe {
+               width: 100%;
+           }
+       }
+       .section2 {
+           margin-top: 30px;
+           &__tittle {
+               text-transform: uppercase;
+               text-align: center;
+               margin-bottom: 20px;
+           }
+           &__div {
+               display: grid;
+               grid-template-columns: 1fr;
+               gap: 20px;
+               align-items: center;
+               font-size: 20px;
+               line-height: 1.6;
+           }
+           &__p {
+               font-size: 15px;
+               margin: 20px;
+           }
+
+           &__imagen23 {
+               width: 650px;
+           }
+           
+       }
+       .section3 {
+           margin: 40px;
+           font-size: 25px;
+           text-align: center;
+       }
+    /*historia*/
+   
+       .h1_historia {
+           text-transform: uppercase;
+           margin: 18px;
+       }
+       .h2_historia {
+           margin: 18px;
+           text-align: center;
+       }
+   
+       .div3 {
+           display: grid;
+           grid-template-columns: 1fr;
+           gap: 40px;
+           align-items: center;
+           font-size: 20px;
+       
+       
+           &__imagen32 {
+               width: 600px;
+       
+           }
+           &__p {
+               margin: 25px;
+               line-height: 1.5;
+           }
+       }
+       
+       .div4 {
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+           
+           &__p {
+               margin: 30px;
+               font-size: 18px;
+               line-height: 1.6;
+           }
+       
+           &__imagen15 {
+               width: 600px;
+               align-self: center;
+           }
+       
+       
+       }
+   
+       /*juegos*/
+   
+       .grid1 {
+           grid-template-columns: 1fr;
+       }
+   
+       .grid2 {
+           display: grid;
+           grid-template-columns: 1fr;
+           grid-template-areas:
+               "p1"
+               "img1"
+               "p2"
+               "img2"
+               "p3"
+               "img3"
+               "p4"
+               "img4";
+       
+       }
+       .rumor {
+           margin: 70px;
+       
+           &__tittle {
+               text-align: center;
+               margin: 30px;
+           }
+       
+           &__p {
+               font-size: 20px;
+               line-height: 1.5;
+           }
+       }
+       
+       /*footer*/
+   
+       .footer {
+           display: flex;
+           flex-direction: column;
+           margin: 10px;
+       
+           &__lista {
+               list-style: circle;
+               flex-direction: column;
+           }
+       
+           &__lista2 {
+               margin: 10px;
+           }
+           
+           
+           &__icono {
+               width: 10%;
+           }
+       }
+   
+       /*personajes*/
+   
+   .card {
+       width: 35rem;
+   }
+   .segundos {
+       margin: 25px;
+   }
+   
+   .personajes23 {
+       margin: 25px;
+       &__ul {
+           display: flex;
+           justify-content: space-between;
+           font-size: 20px;
+           list-style: none;
+       }
+       &__p {
+           font-size: 25px;
+           line-height: 1.5;
+       }
+       
+   }
+   
+   
+   
+   .section-personajes {
+   
+   
+       &__tittle {
+           text-transform: uppercase;
+           text-align: center;
+       }
+   
+       &__p {
+           text-align: center;
+           font-size: 25px;
+       }
+   }
+   /*acerca de mi*/
+   .AcercaDeMi {
+       line-height: 1.5;
+       
+       &__tittle {
+           text-align: center;
+           text-transform: uppercase;
+       }
+   
+       &__p {
+           margin: 30px;
+           font-size: 25px;
+       }
+   }
+   
+  
+
+}
+
+@media (max-width: 520px) {
+        /*index*/
+        .div1 {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            align-items: center;
+       
+           &__imagen {
+               width: 400px;
+       
+           }
+       
+           &__p1 {
+               text-align: left;
+               font-size: 17px;
+               line-height: 1.5;
+               margin: 30px;
+           }
+           }
+           .div2 {
+               display: block;
+           
+               &__titulo{ 
+                  text-transform: uppercase;
+                  text-align: center;
+                  margin: 20px;
+           
+               }
+               &__pp {
+                   font-size: 15px;
+                   line-height: 1.5;
+                   margin: 20px;
+               }
+           }
+           .section {
+               display: block;
+               
+               &__tittle {
+                   text-align: center;
+                   text-transform: uppercase;
+                   margin: 30px auto;
+               }
+               &__iframe {
+                   width: 100%;
+               }
+           }
+           .section2 {
+               margin-top: 30px;
+               &__tittle {
+                   text-transform: uppercase;
+                   text-align: center;
+                   margin-bottom: 20px;
+               }
+               &__div {
+                   display: grid;
+                   grid-template-columns: 1fr;
+                   gap: 20px;
+                   align-items: center;
+                   font-size: 15px;
+                   line-height: 1.6;
+               }
+               &__p {
+                   font-size: 15px;
+                   margin: 20px;
+               }
+    
+               &__imagen23 {
+                   width: 500px;
+               }
+               
+           }
+           .section3 {
+               margin: 40px;
+               font-size: 20px;
+               text-align: center;
+           }
+        /*historia*/
+       
+           .h1_historia {
+               text-transform: uppercase;
+               margin: 18px;
+           }
+           .h2_historia {
+               margin: 18px;
+               text-align: center;
+           }
+       
+           .div3 {
+               display: grid;
+               grid-template-columns: 1fr;
+               gap: 20px;
+               align-items: center;
+               font-size: 15px;
+           
+           
+               &__imagen32 {
+                   width: 500px;
+           
+               }
+               &__p {
+                   margin: 25px;
+                   line-height: 1.5;
+               }
+           }
+           
+           .div4 {
+               display: flex;
+               flex-direction: column;
+               gap: 10px;
+               
+               &__p {
+                   margin: 30px;
+                   font-size: 15px;
+                   line-height: 1.6;
+               }
+           
+               &__imagen15 {
+                   width: 500px;
+                   align-self: center;
+               }
+           
+           
+           }
+       
+           /*juegos*/
+       
+           .grid1 {
+               grid-template-columns: 1fr;
+
+
+               &__iframe {
+                width: 100%;
+            }
+           }
+       
+           .grid2 {
+               display: grid;
+               grid-template-columns: 1fr;
+               grid-template-areas:
+                   "p1"
+                   "img1"
+                   "p2"
+                   "img2"
+                   "p3"
+                   "img3"
+                   "p4"
+                   "img4";
+           
+           }
+           .rumor {
+               margin: 70px;
+           
+               &__tittle {
+                   margin: 30px;
+               }
+           
+               &__p {
+                   font-size: 20px;
+                   line-height: 1.5;
+                   margin: 20px;
+               }
+           }
+           
+           /*footer*/
+       
+           .footer {
+               display: flex;
+               flex-direction: column;
+               margin: 10px;
+           
+               &__lista {
+                   flex-direction: column;
+               }
+           
+               &__lista2 {
+                   margin: 10px;
+               }
+               
+               
+               &__icono {
+                   width: 20%;
+               }
+           }
+       
+           /*personajes*/
+       
+       .card {
+           width: 32rem;
+       }
+       .segundos {
+           margin: 25px;
+       }
+       
+       .personajes23 {
+           margin: 25px;
+           &__ul {
+               font-size: 20px;
+           }
+           &__p {
+               font-size: 15px;
+               line-height: 1.5;
+           }
+           
+       }
+       
+       
+       
+       .section-personajes {
+       
+       
+       
+           &__p {
+               font-size: 25px;
+           }
+       }
+       /*acerca de mi*/
+       .AcercaDeMi {
+           line-height: 1.5;
+           
+       
+           &__p {
+               margin: 30px;
+               font-size: 20px;
+           }
+       }
+       
+
+
+}

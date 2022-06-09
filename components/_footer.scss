@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+
+    &__lista {
+        list-style: none;
+    }
+
+    &__lista2 {
+        float: left;
+        margin: 10px;
+    }
+    
+    
+    &__icono {
+        width: 5%;
+    }
+}

@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Personajes</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
 <body>
     <div>
-        <header>
+        <header class="header">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img alt="icono-pagina" class="icono"
+                    <a class="navbar-brand" href="#"><img alt="icono-pagina" class="header-icono"
                             src="../images/the-last-of-us-the-series_zqpr.jpg" alt="icono pagina"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -35,95 +38,145 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <h1>Personajes de la historia</h1>
-            <p>Tenemos variedad de personajes en todos los juegos traidos por la compañia, sin embargo te vamos a
+        <section class="section-personajes">
+            <h1 class="section-personajes__tittle">Personajes de la historia</h1>
+            <p class="section-personajes__p">Tenemos variedad de personajes en todos los juegos traidos por la
+                compañia, sin embargo te vamos a
                 mencionar
                 los personajes principales de cada entrega.
             </p>
-            <h2>The Last Of Us</h2>
-            <div class="div1">
-                <div class="card" style="width: 40rem;">
-                    <img src="../images/joelmiller.jpg" class="card-img-top imagenanim" alt="personaje principal joel">
+        </section>
+        <h2>THE LAST OF US</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col ml-5">
+                <div class="card bg-primary text-center">
+                    <img src="../images/joelmiller.jpg" class="card-img-top" alt="personaje principal joel">
                     <div class="card-body">
                         <h5 class="card-title">JOEL MILLER</h5>
-                        <p class="card-text">Un superviviente brutal al que le quedan pocas líneas morales por cruzar.
+                        <p class="card-text">Un superviviente brutal al que le quedan pocas líneas morales por
+                            cruzar.
                             Joel, ahora en sus 40, se
                             ha
-                            endurecido por los estragos de la pandemia de hongos que ha devastado la civilización tal
+                            endurecido por los estragos de la pandemia de hongos que ha devastado la civilización
+                            tal
                             como la
-                            conocemos. Ha perdido amigos, familia y todo lo que valoraba en la vida. Al vivir en una de
+                            conocemos. Ha perdido amigos, familia y todo lo que valoraba en la vida. Al vivir en una
+                            de
                             las
                             pocas
                             zonas de cuarentena controladas por militares que quedan, opera como contrabandista del
                             mercado
                             negro,
-                            comerciando con contrabando, tomando numerosos trabajos deshumanizantes a lo largo de los
+                            comerciando con contrabando, tomando numerosos trabajos deshumanizantes a lo largo de
+                            los
                             años para
-                            sobrevivir en este nuevo mundo pospandémico. La conciencia de Joel se desvanece lentamente
+                            sobrevivir en este nuevo mundo pospandémico. La conciencia de Joel se desvanece
+                            lentamente
                             mientras
                             apaga sus emociones para hacer frente a su nueva vida.</p>
                     </div>
                 </div>
             </div>
-            <p>Joel es uno de los personajes mas iconicos de la saga en la cual en su primer entrega los fans le tomaron
-                mucho cariño al personaje. Por sus rasgos y sus habilidades Joel es un superviviente muy habilidoso el
-                cual
-                es el protagonista de esta primer entrega.
-            </p>
-            <div class="div1">
-                <div class="card mb-3" style="max-width: 1040px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="../images/elliewilliams.jpg" class="img-fluid rounded-start imagenanim"
-                                alt="Personaje Pincipal ellie">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Ellie Williams</h5>
-                                <p class="card-text">Ellie nació en algún momento entre 2018 y 2019, cuando la pandemia
-                                    de Cordyceps se había extendido
-                                    por
-                                    todo Estados Unidos. Como resultado, creció en una opresiva zona de cuarentena
-                                    militar en Boston ,
-                                    Massachusetts, con poco conocimiento del mundo antes de la infección. Antes de
-                                    morir, la madre de
-                                    Ellie,
-                                    Anna, le pidió a Marlene que cuidara a Ellie. Sin embargo, Ellie no conoció a
-                                    Marlene hasta que
-                                    tenía 13
-                                    años.
+            <div class="col ml-5">
+                <div class="card bg-primary text-center">
+                    <img src="../images/elliewilliams.jpg" class="card-img-top" alt="perosnaje de ellie williams">
+                    <div class="card-body">
+                        <h5 class="card-title">ELLIE WILLIAMS</h5>
+                        <p class="card-text">Ellie nació en algún momento entre 2018 y 2019, cuando la pandemia de
+                            Cordyceps se había extendido por todo Estados Unidos. Como resultado, creció en una opresiva
+                            zona de cuarentena militar en Boston , Massachusetts, con poco conocimiento del mundo antes
+                            de la infección. Antes de morir, la madre de Ellie, Anna, le pidió a Marlene que cuidara a
+                            Ellie. Sin embargo, Ellie no conoció a Marlene hasta que tenía 13 años.
 
-                                    Según Ellie, en un momento de su vida, conducía un automóvil.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
+                            Según Ellie, en un momento de su vida, conducía un automóvil.</p>
                     </div>
                 </div>
             </div>
+            <div class="col ml-5">
+                <div class="card bg-primary text-center">
+                    <img src="../images/tess-thelastofus.jpg" class="card-img-top" alt="personaje tess">
+                    <div class="card-body">
+                        <h5 class="card-title">TESS</h5>
+                        <p class="card-text">Tess era un personaje de The Last of Us. Una sobreviviente endurecida, ella
+                            era la "compañera" a largo plazo de Joel. La pareja se ganaba la vida como contrabandistas;
+                            negociaron con sobrevivientes fuera de la ciudad. Es interpretada por Annie Wersching.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col ml-5 ">
+                <div class="card bg-primary text-center">
+                    <img src="../images/tommy-miller.webp" class="card-img-top" alt="personaje tommy miller">
+                    <div class="card-body">
+                        <h5 class="card-title">TOMMY MILLER</h5>
+                        <p class="card-text">Tommy Miller es un personaje secundario en The Last of Us, y con un rol más
+                            importante en The Last of Us: Parte II. Es el hermano menor de Joel y el tío paterno de
+                            Sarah.
+
+                            Tommy sobrevivió a los primeros años del brote con Joel. Sin embargo, los dos se separaron
+                            mientras Tommy buscaba una vida más significativa que la mera supervivencia, lo que lo llevó
+                            a unirse a las luciérnagas y luego buscar la redención a través de su esposa, María, y la
+                            comunidad de Jackson.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col ml-5 ">
+                <div class="card bg-primary text-center">
+                    <img src="../images/marlene-thelastofus.jpg" class="card-img-top" alt="personaje marlene">
+                    <div class="card-body">
+                        <h5 class="card-title">MARLENE</h5>
+                        <p class="card-text">Marlene es un personaje secundario en The Last of Us y The Last of Us;
+                            Parte II.
+
+                            Ella es la fundadora y líder de las Luciérnagas. Ella cuidó a Ellie después de que su madre
+                            Anna muriera y da a Joel la tarea de escoltarla fuera de la ciudad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col ml-5 ">
+                <div class="card bg-primary text-center">
+                    <img src="../images/abby-anderson.jpg" class="card-img-top" alt="personaje abby anderson">
+                    <div class="card-body">
+                        <h5 class="card-title">ABBY ANDERSON</h5>
+                        <p class="card-text">Ex miembro de los Luciérnagas destrozadas por la tragedia, Abby se propuso
+                            hacer justicia por mano propia junto a su grupo de amigos. Sin embargo, después de que su
+                            venganza no le trajera la paz que esperaba se embarca en un viaje con dos nuevos compañeros
+                            y redescubre el verdadero propósito de su vida.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
     </div>
-    <p>Ellie es un personaje principal en ambas sagas la cual los fans adoran, crecio un tiempo junto a Joel y
-        de
-        ahi aprendio mucho de el.</p>
-    <h3>Otros personajes tambien son</h3>
-    <ul class="ul3">
-        <li class="li1">Marlene</li>
-        <li class="li1">Tommy</li>
-        <li class="li1">Test</li>
-        <li class="li1">Abby</li>
-        <li class="li1">Sarah</li>
-        <li class="li1">Dina</li>
-    </ul>
+    <div class="personajes23">
+        <h2>Otros personajes tambien son:</h2>
+        <ul class="ul3 personajes23__ul">
+            <li class="li1">SARAH</li>
+            <li class="li1">BILL</li>
+            <li class="li1">LEV</li>
+            <li class="li1">DINA</li>
+            <li class="li1">MEL</li>
+            <li class="li1">OWEN</li>
+        </ul>
+        <p class="personajes23__p">Hay muchos personajes en esta saga, la verdad que cada uno con una historia distinta y llamativa, y al ser
+            tantos es casi imposible lograr poner a todos en un mismo lugar.
+            Igual no se preocupen que los personajes mas importantes los tienen ya en esta pagina, ya sea con su biografia o una
+            pequeña mension a ellos.
+        </p>
+    </div>
     </main>
-    <footer class="row">
-        <div class="col-12">
+    <footer>
+        <div class="footer">
             <h6>Derechos Reservados-Naughty Dog.</h6>
-            <ul class="lista2">
-                <li><a href="https://www.instagram.com/naughty_dog_inc/?hl=es">Instagram</a></li>
-                <li><a href="https://twitter.com/naughty_dog">Twitter</a></li>
-                <li><a href="https://www.naughtydog.com/links">Pagina Oficial</a></li>
+            <ul class="footer__lista">
+                <li class="footer__lista2"><a href="https://www.instagram.com/naughty_dog_inc/?hl=es"
+                        target="_blank">Instagram</a></li>
+                <li class="footer__lista2"><a href="https://twitter.com/naughty_dog" target="_blank">Twitter</a></li>
+                <li class="footer__lista2"><a href="https://www.naughtydog.com/links" target="_blank">Pagina Oficial</a>
+                </li>
             </ul>
-            <img alt="icono-pagina" class="imagen3" src="../images/icono3.jpg">
+            <img alt="icono pagina" class="footer__icono" src="../images/icono3.jpg">
         </div>
     </footer>
     </div>

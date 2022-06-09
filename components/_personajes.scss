@@ -1,0 +1,38 @@
+
+.card {
+    width: 45rem;
+}
+.segundos {
+    margin: 30px;
+}
+
+.personajes23 {
+    margin: 30px;
+    &__ul {
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        list-style: none;
+    }
+    &__p {
+        font-size: 25px;
+        line-height: 2.0;
+    }
+    
+}
+
+
+
+.section-personajes {
+
+
+    &__tittle {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &__p {
+        text-align: center;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,46 @@
+.h1_historia {
+    text-transform: uppercase;
+    margin: 30px;
+}
+.h2_historia {
+    margin: 30px;
+    text-align: center;
+}
+.div3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+    font-size: 20px;
+
+
+    &__imagen32 {
+        width: 800px;
+
+    }
+    &__p {
+        line-height: 2.0;
+    }
+}
+
+.div4 {
+    display: flex;
+    gap: 20px;
+    
+    &__p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    &__imagen15 {
+        width: 800px;
+        height: 400px;
+        align-self: center;
+    }
+
+
+}
+
+
+
+

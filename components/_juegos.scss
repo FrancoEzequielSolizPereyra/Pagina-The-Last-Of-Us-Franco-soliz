@@ -1,0 +1,92 @@
+.tittle {
+    text-align: center;
+    margin: 100px;
+    text-transform: uppercase;
+}
+
+.p {
+    font-size: 30px;
+    margin: 50px;
+}
+
+
+
+.grid1 {
+    display: grid;
+    border: 3px solid #1019b5;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+
+
+    &__iframe {
+        width: 700px;
+        height: 500px;
+    }
+}
+
+.grid2 {
+    display: grid;
+    grid-template-areas: "img1 p1 img2 p2"
+                         "img3 p3 img4 p4";
+    grid-template-columns: 35% 15% 35% 15%;
+
+
+}
+
+.imagenPrimerJuego {
+    grid-area: img1;
+}
+
+.textoPrimerJuego {
+    grid-area: p1;
+    font-size: 30px;
+
+}
+
+.imgSegundoJuego {
+    grid-area: img2;
+
+}
+
+.textoSegJuego {
+    grid-area: p2;
+    font-size: 30px;
+
+}
+
+.imgTercerJuego {
+    grid-area: img3;
+}
+
+.textoTercerJuego {
+    grid-area: p3;
+    font-size: 30px;
+
+}
+
+.remasterCuartoJuego {
+    grid-area: img4;
+}
+
+.textoRemasterCuartoJuego {
+    grid-area: p4;
+    font-size: 30px;
+
+}
+
+.grid2 img {
+    width: 100%;
+}
+.rumor {
+    margin: 70px;
+
+    &__tittle {
+        text-align: center;
+        margin: 30px;
+    }
+
+    &__p {
+        font-size: 28px;
+        line-height: 1.8;
+    }
+}

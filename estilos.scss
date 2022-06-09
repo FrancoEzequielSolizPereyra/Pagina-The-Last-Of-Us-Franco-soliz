@@ -1,1 +1,9 @@
-$width: width 10px
+@import './components/global';
+@import './components/header';
+@import './components/index';
+@import './components/historia';
+@import './components/juegos';
+@import './components/personajes';
+@import './components/acerca-de-mi';
+@import './components/media-queries';
+@import './components/footer';
